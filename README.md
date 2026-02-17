@@ -38,9 +38,9 @@ pip install customtkinter watchdog packaging
 # Run the interface
 python3 gui.py
  ```
-6. Developer Notes
-Resource Locking: The UI disables input fields while the agent is active to prevent race conditions.
+## 6. Developer Notes
+* **Resource Locking:** The UI disables input fields while the agent is active to prevent race conditions.
 
-Error Handling: The system logs all I/O errors to the GUI console without crashing the main process.
+* **Error Handling:** The system logs all I/O errors to the GUI console without crashing the main process.
 
-Developed by: F Lalthanmawia
+* **Developed by: F Lalthanmawia** 
